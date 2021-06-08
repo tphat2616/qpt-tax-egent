@@ -1,0 +1,3 @@
+<%= live_component @socket, QptTaxAgentWeb.LayoutLive.NavbarTop, Map.put(assigns, :id, "desktop-navbar") %>
+<%= live_component @socket, assigns[:root_route][:component], get_assigns_for_mainpage(assigns) %>
+<%= live_component @socket, QptTaxAgentWeb.LayoutLive.PageFooter, route: assigns[:root_route] %>

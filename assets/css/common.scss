@@ -1,0 +1,22 @@
+html,
+button {
+  border: none;
+  font-size: 16px;
+  font-family: "Montserrat-Regular", sans-serif;
+  line-height: 1.5em;
+  // color: #030358;
+}
+svg {
+  height: 15px;
+  width: 15px;
+}
+* {
+  // -webkit-tap-highlight-color: transparent; /* for removing the highlight */
+  -webkit-overflow-scrolling: touch;
+  /* enable scroll bouncing effect for Safari */
+  -webkit-touch-callout: none;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}

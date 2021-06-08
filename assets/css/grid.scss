@@ -1,0 +1,42 @@
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -20px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+[class*="col-"] {
+  width: 100%;
+  padding-left: 60px;
+}
+
+$grid-size: 12;
+@for $i from 1 to ($grid-size + 1) {
+  .col-#{$i} {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 #{($i) / $grid-size * 100}"#{"%"}";
+    flex: 0 0 #{($i) / $grid-size * 100}"#{"%"}";
+    max-width: #{($i) / $grid-size * 100}"#{"%"}";
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  @for $i from 1 to ($grid-size + 1) {
+    .col-lg-#{$i} {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 #{($i) / $grid-size * 100}"#{"%"}";
+      flex: 0 0 #{($i) / $grid-size * 100}"#{"%"}";
+      max-width: #{($i) / $grid-size * 100}"#{"%"}";
+    }
+  }
+}

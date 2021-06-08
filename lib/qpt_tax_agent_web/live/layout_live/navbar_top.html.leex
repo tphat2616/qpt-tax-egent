@@ -1,0 +1,59 @@
+<nav class="container-desk container-sticky" id="desktop-navbar-top">
+    <div class="container navbar-top-desk">
+        <%= live_patch class: "navbar-logo", to: Routes.page_path(@socket, :home_index) do %>
+            <img src="/images/logo.png" alt="" title="" />
+        <% end %>
+        <div class="container-desk-content">
+            <div class="container-nav-top">
+                <div>
+                    <button style="padding: 10px" class="download-btn"><b><%= gettext "Tải Báo Giá" %></b></button>
+                </div>
+                <div>
+                    <img class="lang-icon" src="/images/ic-vietnamese-flag.svg" height=20 alt="">
+                    <img class="lang-icon" src="/images/ic-english-flag.svg" height=20 alt="">
+                </div>
+                <div style="color: #030358; fill: #030358">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 513.64 513.64" style="enable-background:new 0 0 513.64 513.64;">
+                        <path d="M499.66,376.96l-71.68-71.68c-25.6-25.6-69.12-15.359-79.36,17.92c-7.68,23.041-33.28,35.841-56.32,30.72
+                            c-51.2-12.8-120.32-79.36-133.12-133.12c-7.68-23.041,7.68-48.641,30.72-56.32c33.28-10.24,43.52-53.76,17.92-79.36l-71.68-71.68
+                            c-20.48-17.92-51.2-17.92-69.12,0l-48.64,48.64c-48.64,51.2,5.12,186.88,125.44,307.2c120.32,120.32,256,176.641,307.2,125.44
+                            l48.64-48.64C517.581,425.6,517.581,394.88,499.66,376.96z" />
+                    </svg>
+                    <span><%= gettext "Hotline 037 3700 906 | 093 8753 116" %></span>
+                </div>
+            </div>
+            <div class="container-nav-bot">
+                <%= live_patch class: "", to: Routes.page_path(@socket, :home_index ) do %>
+                <% end %>
+                <%= live_patch class: "", to: Routes.page_path(@socket, :home_index ) do %>
+                    <span><b><%= gettext "GIỚI THIỆU" %></b></span>
+                <% end %>
+
+                <%= live_patch class: "", to: Routes.page_path(@socket, :home_index ) do %>
+                    <span><b><%= gettext "DỊCH VỤ" %></b></span>
+                <% end %>
+                <%= live_patch class: "", to: Routes.page_path(@socket, :home_index ) do %>
+                    <span><b><%= gettext "BÀI VIẾT" %></b></span>
+                <% end %>
+                <%= live_patch class: "", to: Routes.page_path(@socket, :home_index ) do %>
+                    <span><b><%= gettext "TRUYỂN DỤNG" %></b></span>
+                <% end %>
+                <%= live_patch class: "", to: Routes.page_path(@socket, :home_index ) do %>
+                    <span><b><%= gettext "LIÊN HỆ" %></b></span>
+                <% end %>
+                <%= f = form_for search_changeset(), "", [as: :search, class: "search dropdown dropdown-click", phx_submit: :search, phx_target: @myself] %>
+                    <label style="fill: #030358">
+                        <%= search_input f, :query, class: "search-input", autocomplete: "off",
+                            placeholder: gettext("Search") %>
+
+                        <svg width="20" height="21" viewBox="0 0 20 21" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.20727 2.07335C4.70598 0.864731 6.56358 0.204605 8.47884 0.200012C13.1725 0.19108 16.9845 4.04015 16.9933 8.79709C16.997 10.7596 16.3392 12.6646 15.129 14.1965L20 18.8111L18.6296 20.2L13.7905 15.5531C10.1177 18.5151 4.77116 17.8986 1.84873 14.1763C-1.07372 10.4539 -0.465504 5.03528 3.20727 2.07335ZM8.47884 15.4778C12.1105 15.4778 15.0546 12.494 15.0546 8.81329C15.0546 5.13258 12.1105 2.1488 8.47884 2.1488C4.84715 2.1488 1.9031 5.13258 1.9031 8.81329C1.9031 12.494 4.84715 15.4778 8.47884 15.4778Z"/>
+                        </svg>
+                        <ul class="dropdown-menu dropdown-menu-arrow">
+                        </ul>
+                    </label>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav>
