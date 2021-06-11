@@ -8,7 +8,37 @@ defmodule QptTaxAgentWeb.PageRouter do
             id: "home-page",
             title: "Home",
             live_action: :home_index
-          ]
+          ],
+          [
+            component: QptTaxAgentWeb.Introduction.Index,
+            id: "gioi-thieu",
+            title: "Gioi Thieu",
+            live_action: :gioi_thieu
+          ],
+          [
+            component: QptTaxAgentWeb.HomeLive.Index,
+            id: "dich-vu",
+            title: "Dich Vu",
+            live_action: :dich_vu
+          ],
+          [
+            component: QptTaxAgentWeb.HomeLive.Index,
+            id: "tin-tuc",
+            title: "Tin Tuc",
+            live_action: :tin_tuc
+          ],
+          [
+            component: QptTaxAgentWeb.HomeLive.Index,
+            id: "tuyen-dung",
+            title: "Tuyen dung",
+            live_action: :tuyen_dung
+          ],
+          [
+            component: QptTaxAgentWeb.HomeLive.Index,
+            id: "lien-he",
+            title: "Lien He",
+            live_action: :lien_he
+          ],
         ]
     end
 

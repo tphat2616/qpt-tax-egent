@@ -25,20 +25,20 @@
             <div class="container-nav-bot">
                 <%= live_patch class: "", to: Routes.page_path(@socket, :home_index ) do %>
                 <% end %>
-                <%= live_patch class: "", to: Routes.page_path(@socket, :home_index ) do %>
+                <%= live_patch class: "", to: Routes.page_path(@socket, :gioi_thieu ) do %>
                     <span><b><%= gettext "GIỚI THIỆU" %></b></span>
                 <% end %>
 
-                <%= live_patch class: "", to: Routes.page_path(@socket, :home_index ) do %>
+                <%= live_patch class: "", to: Routes.page_path(@socket, :dich_vu ) do %>
                     <span><b><%= gettext "DỊCH VỤ" %></b></span>
                 <% end %>
-                <%= live_patch class: "", to: Routes.page_path(@socket, :home_index ) do %>
+                <%= live_patch class: "", to: Routes.page_path(@socket, :tin_tuc ) do %>
                     <span><b><%= gettext "BÀI VIẾT" %></b></span>
                 <% end %>
-                <%= live_patch class: "", to: Routes.page_path(@socket, :home_index ) do %>
+                <%= live_patch class: "", to: Routes.page_path(@socket, :tuyen_dung ) do %>
                     <span><b><%= gettext "TRUYỂN DỤNG" %></b></span>
                 <% end %>
-                <%= live_patch class: "", to: Routes.page_path(@socket, :home_index ) do %>
+                <%= live_patch class: "", to: Routes.page_path(@socket, :lien_he ) do %>
                     <span><b><%= gettext "LIÊN HỆ" %></b></span>
                 <% end %>
                 <%= f = form_for search_changeset(), "", [as: :search, class: "search dropdown dropdown-click", phx_submit: :search, phx_target: @myself] %>
