@@ -1,6 +1,6 @@
 .container-introduction {
     width: 100%;
-    height: 3200px;
+    height: 3300px;
   }
 .upper-introduction-left{
     padding: 15px;
@@ -50,4 +50,24 @@
 .key-member {
     width: 360px;
     height: 406px;
+}
+.name{
+  color: #000080;
+  font-size: 16px
+}
+.fb {
+  color: #000080;
+  margin-top: 10px;
+}
+.phone-and-email {
+  color: #000080;
+  margin-top: 20px;
+}
+.icon {
+  width: 35px;
+  margin-right: 10px;
+  padding-top: 0;
+}
+.link {
+  padding-top: 10px;
 }

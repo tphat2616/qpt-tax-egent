@@ -16,7 +16,7 @@ defmodule QptTaxAgentWeb.PageRouter do
             live_action: :gioi_thieu
           ],
           [
-            component: QptTaxAgentWeb.HomeLive.Index,
+            component: QptTaxAgentWeb.Service.Index,
             id: "dich-vu",
             title: "Dich Vu",
             live_action: :dich_vu
