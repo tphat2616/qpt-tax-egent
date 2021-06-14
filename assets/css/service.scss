@@ -53,7 +53,7 @@
       color: #02124d;
   }
   .criteria {
-    margin-top: 450px;
+    margin-top: 650px;
     display: flex;
     flex-direction: row;
     padding: 20px;
@@ -122,14 +122,60 @@
     //   height: 15px;
   }
   .section-band-service{
+    color: #FAD898;
     position: absolute;
-    width: 100%;
     left: 0;
-    height: 400px;
+    height: 600px;
     background-color: #102f5e;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     line-height: 1.55;
+    justify-content: center;
+  }
+  .flex-row-service-2 {
+    display: flex;
+    flex-direction: row;
+  }
+  .flex-column-service-2{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    margin: 0 30px 0 75px;
+  }
+  .flex-column-service-2 > span, .flex-column-service-2 > p {
+    font-size: 18px;
+    line-height: 1.88;
+  }
+  .flex-column-service-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .introduce-picture-3{
+    padding: 0;
+    margin: 0;
+    width: 500px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+  }
+  .service-button-hover-left {
+    color: #fff;
+    background-color: #00b1f5;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  .service-button-hover-left:hover {
+    background-color: #030358;
+    transform: perspective(200px) rotateY(35deg);
+    transition-duration: 1s;
+  }
+  .service-button-hover-right{
+    color: #fff;
+    background-color: #041344;
+    padding: 10px
+  }
+  .service-button-hover-right:hover {
+    background-color: #00b1f5;
+    transform: perspective(200px) rotateY(-35deg);
+    transition-duration: 1s;
   }
