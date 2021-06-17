@@ -34,7 +34,7 @@ defmodule QptTaxAgentWeb.PageRouter do
             live_action: :tuyen_dung
           ],
           [
-            component: QptTaxAgentWeb.HomeLive.Index,
+            component: QptTaxAgentWeb.Contact.Index,
             id: "lien-he",
             title: "Lien He",
             live_action: :lien_he

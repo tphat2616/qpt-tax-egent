@@ -1,0 +1,67 @@
+.container-contact {
+    width: 100%;
+    height: 1115px;
+}
+.map {
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 #ccc, 0 6px 10px 0 #f2f2f2;
+    border-radius: 2px;
+}
+.contact-form {
+    width: 76%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 #ccc, 0 6px 10px 0 #f2f2f2;
+    margin-left: 135px;
+}
+.contact-left{
+    width: 40%;
+    color: #fff;
+    background-color: #08237e;
+    fill: #00b1f5;
+    padding: 40px;
+}
+.contact-left > h3, .contact-left > h4, .contact-left > span, .contact-left > p {
+    margin: 30px 0 30px 0;
+}
+.contact-right{
+    margin-left: 20px;
+    
+}
+.input-form {
+    height: 50px;
+    max-width: 300px;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    border-style: none;
+    color: #777777;
+    font-family: inherit;
+    font-size: 15px;
+    margin: 20px;
+    padding-left: 10px;
+}
+.input-form-2 {
+    height: 120px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    border-style: none;
+    color: #777777;
+    font-family: inherit;
+    font-size: 15px;
+    margin: 20px;
+    padding-left: 10px;
+}
+.contact-right > h3 {
+    text-align: center;
+    color: #08237e;
+}
+.send-btn {
+    color: #fff;
+    background-color: #00b1f5;
+    padding: 10px;
+    width: 80px;
+    margin: 20px
+  }
