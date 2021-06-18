@@ -28,7 +28,7 @@ defmodule QptTaxAgentWeb.PageRouter do
             live_action: :tin_tuc
           ],
           [
-            component: QptTaxAgentWeb.HomeLive.Index,
+            component: QptTaxAgentWeb.Career.Index,
             id: "tuyen-dung",
             title: "Tuyen dung",
             live_action: :tuyen_dung
