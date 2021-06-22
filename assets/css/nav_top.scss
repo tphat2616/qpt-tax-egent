@@ -7,6 +7,9 @@
 }
 .blogs{
     padding-top: 20px;
+    font-family: BrandonText-Bold;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 .special {
     min-height: 74px;
@@ -15,7 +18,7 @@
 .dropdown-content{
     display: none;
     position: absolute;
-    min-width: 160px;
+    min-width: 165px;
     background-color: #102f5e;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px 5px;

@@ -22,12 +22,6 @@ defmodule QptTaxAgentWeb.PageRouter do
             live_action: :dich_vu
           ],
           [
-            component: QptTaxAgentWeb.HomeLive.Index,
-            id: "tin-tuc",
-            title: "Tin Tuc",
-            live_action: :tin_tuc
-          ],
-          [
             component: QptTaxAgentWeb.Career.Index,
             id: "tuyen-dung",
             title: "Tuyen dung",
@@ -38,6 +32,30 @@ defmodule QptTaxAgentWeb.PageRouter do
             id: "lien-he",
             title: "Lien He",
             live_action: :lien_he
+          ],
+          [
+            component: QptTaxAgentWeb.TaxAlert.Index,
+            id: "tax-alert",
+            title: "Tax Alert",
+            live_action: :tax_alert
+          ],
+          [
+            component: QptTaxAgentWeb.TaxHandbook.Index,
+            id: "handbook",
+            title: "Handbook",
+            live_action: :tax_handbook
+          ],
+          [
+            component: QptTaxAgentWeb.News.Index,
+            id: "news",
+            title: "News",
+            live_action: :tin_tuc
+          ],
+          [
+            component: QptTaxAgentWeb.Law.Index,
+            id: "law",
+            title: "Law",
+            live_action: :law
           ],
         ]
     end

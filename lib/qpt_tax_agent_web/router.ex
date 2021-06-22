@@ -20,9 +20,12 @@ defmodule QptTaxAgentWeb.Router do
     live("/", PageLive, :home_index)
     live("/gioi-thieu", PageLive, :gioi_thieu)
     live("/dich-vu", PageLive, :dich_vu)
-    live("/tin-tuc", PageLive, :tin_tuc)
     live("/tuyen-dung", PageLive, :tuyen_dung)
     live("/lien-he", PageLive, :lien_he)
+    live("/tax-alert", PageLive, :tax_alert)
+    live("/tax-handbook", PageLive, :tax_handbook)
+    live("/tin-tuc", PageLive, :tin_tuc)
+    live("/law", PageLive, :law)
   end
 
   # Other scopes may use custom stacks.

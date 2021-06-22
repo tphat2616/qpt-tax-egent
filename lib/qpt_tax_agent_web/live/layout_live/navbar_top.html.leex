@@ -34,29 +34,27 @@
                 <% end %>
                 <div class="dropdown">
                     <div class="special">
-                        <%= live_patch class: "blogs", to: Routes.page_path(@socket, :tin_tuc ) do %>
-                        <span><b><%= gettext "BÀI VIẾT" %></b></span>
-                        <% end %>
+                        <strong><a class="blogs">BÀI VIẾT</a></strong>
                     </div>
                     <div class="dropdown-content">
                         <ul class="dropdown-content-list">
                             <li>
-                                <%= live_patch class: "element", to: Routes.page_path(@socket, :dich_vu ) do %>
+                                <%= live_patch class: "element", to: Routes.page_path(@socket, :tax_alert) do %>
                                     <span><b><%= gettext "Bản tin thuế-Tax alert" %></b></span>
                                 <% end %>
                             </li>
                             <li>
-                                <%= live_patch class: "element", to: Routes.page_path(@socket, :dich_vu ) do %>
+                                <%= live_patch class: "element", to: Routes.page_path(@socket, :tax_handbook ) do %>
                                     <span><b><%= gettext "Cẩm nang thuế-Tài chính" %></b></span>
                                 <% end %>
                             </li>
                             <li>
-                                <%= live_patch class: "element", to: Routes.page_path(@socket, :dich_vu ) do %>
+                                <%= live_patch class: "element", to: Routes.page_path(@socket, :tin_tuc ) do %>
                                     <span><b><%= gettext "Tin tức-Sự kiện mới" %></b></span>
                                 <% end %>
                             </li>
                             <li>
-                                <%= live_patch class: "element", to: Routes.page_path(@socket, :dich_vu ) do %>
+                                <%= live_patch class: "element", to: Routes.page_path(@socket, :law ) do %>
                                     <span><b><%= gettext "Văn bản pháp luật" %></b></span>
                                 <% end %>
                             </li>
