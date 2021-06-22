@@ -1,0 +1,35 @@
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.blogs{
+    padding-top: 20px;
+}
+.special {
+    min-height: 74px;
+    padding-top: 25px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: #102f5e;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px 5px;
+    color: #FAD898;
+}
+.dropdown-content-list {
+    display: table-footer-group;
+    list-style-type: none;
+}
+.dropdown-content-list li {
+    margin: 5px 0 5px 0;
+    padding: 10px;
+    font-size: 12px;
+}
+.element:hover {
+    color: white
+}
