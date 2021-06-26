@@ -3,13 +3,14 @@ defmodule QptTaxAgentWeb.PageLive do
   use QptTaxAgentWeb, :live_view
 
   @impl true
-  def mount(_params, _session, socket) do
-    {:ok, assign(socket, query: "", results: %{})}
+  def mount(_params, session, socket) do
+    socket = socket |> fetch_locale(session)
+    {:ok, socket}
   end
 
   @impl true
   def handle_params(params, uri, socket) do
-    {:noreply, Navigator.handle_navigation(params, uri, socket)}
+    {:noreply, Navigator.handle_navigation(params, uri, fetch_locale(socket, params))}
   end
 
   @impl true
@@ -60,5 +61,12 @@ defmodule QptTaxAgentWeb.PageLive do
       :route_stack,
       :root_route
     ])
+  end
+
+  defp fetch_locale(socket, session) do
+    locale = Map.get(session, "locale", Gettext.get_locale())
+    Gettext.put_locale(locale)
+
+    assign(socket, :locale, locale)
   end
 end

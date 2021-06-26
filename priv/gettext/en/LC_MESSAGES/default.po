@@ -1,0 +1,308 @@
+## "msgid"s in this file come from POT (.pot) files.
+##
+## Do not add, change, or remove "msgid"s manually here as
+## they're tied to the ones in the corresponding POT file
+## (with the same domain).
+##
+## Use "mix gettext.extract --merge" or "mix gettext.merge"
+## to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: en\n"
+"Plural-Forms: nplurals=2\n"
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:37
+msgid ", We will support and stand with you when performing the work, we always adhere to the provisions of applicable laws, professional ethics standards, regulations, and internal procedures that are applied. Towards the goal of protecting the best interests of our customers."
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/layout_live/page_footer.html.leex:43
+msgid "037 3700 906 - Ms. Yen"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/layout_live/page_footer.html.leex:34
+msgid "093 8753 116 - Mr. Quang"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/layout_live/page_footer.html.leex:25
+msgid "268 Ly Thuong Kiet Street, Ward 14, District 10, Ho Chi Minh City, Vietnam"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:92
+msgid "ACCOMPANYING BUSINESSES TO START-UP"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:60
+msgid "Always innovate and develop the service system. Create the most comfortable mood between your business and Q.P.T"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:82
+msgid "As a long-term business, we understand your problems. From there, giving the best solution not only in terms of costs but also sustainable development direction for the future of enterprises."
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/layout_live/navbar_top.html.leex:71
+msgid "CAREER"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/layout_live/navbar_top.html.leex:74
+#: lib/qpt_tax_agent_web/live/layout_live/page_footer.html.leex:15
+msgid "CONTACT"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/layout_live/page_footer.html.leex:82
+msgid "Copyright @ 2018 Q.P.T TAX AGENT CO., LTD"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:121
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:133 lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:145
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:157
+msgid "Detail"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:193
+msgid "Detail >>"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:130
+msgid "Detect potential tax risks, propose technical solutions to find ways to minimize tax risks..."
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:118
+msgid "Ensure timely and effective bookkeeping, reporting, and tax payment."
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:172
+msgid "FELLOW TRAVELER OF STARTUPS"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/layout_live/navbar_top.html.leex:28
+msgid "Hotline 037 3700 906 | 093 8753 116"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:201
+msgid "INCREASE THE RETIREMENT AGE OF MAN AND WOMEN FROM 01/01/2021"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:190
+msgid "INSTRUCTIONS FOR MAKING PERSONAL INCOME TAX PAYMENTS 02/QTT-TNCN ON HTKK SOFTWARE"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/layout_live/navbar_top.html.leex:35
+msgid "INTRODUCE"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:213
+msgid "LABOR CODE 2019_CHANGES ON LABOR DISCIPLINE"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:207
+msgid "LABOR CODE 2019_NEW POINT IN LABOR DISPUTES FROM 2021"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/layout_live/navbar_top.html.leex:64
+msgid "LAW"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/layout_live/navbar_top.html.leex:43
+#: lib/qpt_tax_agent_web/live/layout_live/navbar_top.html.leex:59
+msgid "NEWS"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:180
+msgid "News - Events"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/lien_he/index.html.leex:66
+msgid "Nội dung lời nhắn *"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:151
+msgid "PIT FINALIZATION SERVICES"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:41
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:98 lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:175
+#: lib/qpt_tax_agent_web/live/layout_live/navbar_top.html.leex:9
+msgid "Proposal"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:79
+msgid "Providing Comprehensive Tax - Accounting - Audit Solutions"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:25
+msgid "Q.P.T TAX AGENT - FELLOW TRAVELER OF STARTUPS"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/layout_live/page_footer.html.leex:18
+msgid "Q.P.T TAX AGENT CO., LTD"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:95
+msgid "Q.P.T helps you to eliminate all the problems with accounting and tax!"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/layout_live/page_footer.html.leex:10
+msgid "Q.P.T is also a startup business. QPT's mission is to accompany startups and support businesses in 3 main areas that are our expertise: Register to establish a business; Tax procedures: declaration, payment, tax refund; Accounting, salary, insurance."
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:71
+msgid "Q.P.T is always proud to be the leading company in accounting services. We not only have high expertise but also provide the best, professional, most dedicated services!"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:154
+msgid "Q.P.T provides personal PIT declaration and finalization services, handles and resolves all PIT-related issues most professionally and reliably."
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/layout_live/navbar_top.html.leex:39
+msgid "SERVICE"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/layout_live/navbar_top.html.leex:79
+msgid "Search"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:104
+msgid "Service Provided"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/lien_he/index.html.leex:62
+msgid "Số điện thoại..."
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/layout_live/navbar_top.html.leex:49
+msgid "TAX ALERT"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/layout_live/navbar_top.html.leex:54
+msgid "TAX HANDBOOK"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:115
+msgid "TAX PROFESSIONAL SERVICES"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:127
+msgid "TAX REVIEW SERVICES"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:139
+msgid "TAX SERVICES FOR FOREIGN REPRESENTATIVE OFFICES IN VIETNAM"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/layout_live/page_footer.html.leex:68
+msgid "FOLLOW US ON FACEBOOK"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:142
+msgid "Tax accounting services for foreign representative offices in Vietnam help businesses perform accounting tasks."
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:57
+msgid "Together Cooperation And Sustainable Development!"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/lien_he/index.html.leex:58
+msgid "Tên *"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/lien_he/index.html.leex:63
+msgid "Tên doanh nghiệp..."
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:184
+msgid "Update the latest news on Tax, Accounting, Insurance, and Legal Documents."
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:108
+msgid "We are committed to bringing the best quality of service to customers."
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:68
+msgid "Why Choose Us When Thinking About Tax - Accounting?"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:28
+msgid "With formula"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:33
+msgid "and orientation to build Q.P.T as a business"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/lien_he/index.html.leex:59
+msgid "Địa chỉ email *"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:35
+msgid "“CIVILIZATION-PROFESSIONAL-EFFECTIVE”"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:30
+msgid "“COMPANION, CO-SHARE”"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/lien_he/index.html.leex:7
+msgid "LIÊN HỆ"
+msgstr ""
+
+#, elixir-format
+#: lib/qpt_tax_agent_web/live/home_live/components/top_banner.html.leex:44
+msgid "Contact Us"
+msgstr ""

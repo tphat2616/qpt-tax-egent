@@ -18,3 +18,6 @@ SET DATABASE_URL="postgresql://fc99d275-5a64-4773-b976-e92bd6c97f0d-user:pw-1d27
 mix distillery.release --env=prod
 
 git push gigalixir
+
+## mix gettext.extract
+## mix gettext.merge priv/gettext

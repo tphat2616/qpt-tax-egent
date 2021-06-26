@@ -6,11 +6,17 @@
         <div class="container-desk-content">
             <div class="container-nav-top">
                 <div>
-                    <button style="padding: 10px" class="download-btn"><b><%= gettext "Tải Báo Giá" %></b></button>
+                    <button style="padding: 10px" class="download-btn"><b><%= gettext "Proposal" %></b></button>
                 </div>
                 <div>
-                    <img class="lang-icon" src="/images/ic-vietnamese-flag.svg" height=20 alt="">
-                    <img class="lang-icon" src="/images/ic-english-flag.svg" height=20 alt="">
+                    <%= content_tag :a, class: "something-1", phx_value_locale: "vi", phx_click: :switch_language, phx_target: @myself do %>
+                        <img class="lang-icon" src="/images/ic-vietnamese-flag.svg" height=20 alt="">&nbsp
+                        <% end %>
+                    <%= content_tag :a, class: "something-1", phx_value_locale: "en", phx_click: :switch_language, phx_target: @myself do %>
+                        <img class="lang-icon" src="/images/ic-english-flag.svg" height=20 alt="">&nbsp
+                        <% end %>
+                    <%# <img class="lang-icon" src="/images/ic-vietnamese-flag.svg" height=20 alt="">
+                    <img class="lang-icon" src="/images/ic-english-flag.svg" height=20 alt=""> %>
                 </div>
                 <div style="color: #030358; fill: #030358">
                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 513.64 513.64" style="enable-background:new 0 0 513.64 513.64;">
@@ -26,46 +32,46 @@
                 <%= live_patch class: "", to: Routes.page_path(@socket, :home_index ) do %>
                 <% end %>
                 <%= live_patch class: "", to: Routes.page_path(@socket, :gioi_thieu ) do %>
-                    <span><b><%= gettext "GIỚI THIỆU" %></b></span>
+                    <span><b><%= gettext "INTRODUCE" %></b></span>
                 <% end %>
 
                 <%= live_patch class: "", to: Routes.page_path(@socket, :dich_vu ) do %>
-                    <span><b><%= gettext "DỊCH VỤ" %></b></span>
+                    <span><b><%= gettext "SERVICE" %></b></span>
                 <% end %>
                 <div class="dropdown">
                     <div class="special">
-                        <strong><a class="blogs">BÀI VIẾT</a></strong>
+                        <strong><a class="blogs"><%= gettext "NEWS" %></a></strong>
                     </div>
                     <div class="dropdown-content">
                         <ul class="dropdown-content-list">
                             <li>
                                 <%= live_patch class: "element", to: Routes.page_path(@socket, :tax_alert) do %>
-                                    <span><b><%= gettext "Bản tin thuế-Tax alert" %></b></span>
+                                    <span><b><%= gettext "TAX ALERT" %></b></span>
                                 <% end %>
                             </li>
                             <li>
                                 <%= live_patch class: "element", to: Routes.page_path(@socket, :tax_handbook ) do %>
-                                    <span><b><%= gettext "Cẩm nang thuế-Tài chính" %></b></span>
+                                    <span><b><%= gettext "TAX HANDBOOK" %></b></span>
                                 <% end %>
                             </li>
                             <li>
                                 <%= live_patch class: "element", to: Routes.page_path(@socket, :tin_tuc ) do %>
-                                    <span><b><%= gettext "Tin tức-Sự kiện mới" %></b></span>
+                                    <span><b><%= gettext "NEWS" %></b></span>
                                 <% end %>
                             </li>
                             <li>
                                 <%= live_patch class: "element", to: Routes.page_path(@socket, :law ) do %>
-                                    <span><b><%= gettext "Văn bản pháp luật" %></b></span>
+                                    <span><b><%= gettext "LAW" %></b></span>
                                 <% end %>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <%= live_patch class: "", to: Routes.page_path(@socket, :tuyen_dung ) do %>
-                    <span><b><%= gettext "TRUYỂN DỤNG" %></b></span>
+                    <span><b><%= gettext "CAREER" %></b></span>
                 <% end %>
                 <%= live_patch class: "", to: Routes.page_path(@socket, :lien_he ) do %>
-                    <span><b><%= gettext "LIÊN HỆ" %></b></span>
+                    <span><b><%= gettext "CONTACT" %></b></span>
                 <% end %>
                 <%= f = form_for search_changeset(), "", [as: :search, class: "search dropdown dropdown-click", phx_submit: :search, phx_target: @myself] %>
                     <label style="fill: #030358">
